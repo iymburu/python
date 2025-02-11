@@ -57,4 +57,4 @@ withdraw=WithdrawTransaction(1750)
 
 deposit.execute(Account1)
 withdraw.execute(Account1)
-print(f"The balance of {Account1} is {Account.get_balance}")
+print(f"The balance of  account id {Account1.account_id} of {Account1.holder_name} is {Account1.get_balance()}")
